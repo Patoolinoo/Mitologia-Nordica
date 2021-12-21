@@ -1,0 +1,105 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right, rgb(65, 65, 65), rgb(32, 32, 32));
+
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(38, 1, 248, 0.671), rgb(17, 0, 255));
+    
+}
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexbox img{
+    padding: 15px 0px;
+    width: 135px;
+    height: 97px;
+}
+
+.links{
+    padding: 30px 15px;
+}
+
+.links ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding: 0px 50px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background: rgb(2, 170, 248);
+    margin: 10px;
+
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.titulo{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.deuses{
+    background: #180083;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 10px;
+    display: grid;
+    text-align: center;
+}
+
+.deuses img{
+    width: 220px;
+    margin: 0 auto;
+    padding-top: 25px;
+    border-radius: 40px;
+}
+
+.deuses h2{
+    color: white;
+}
+
+.deuses_p{
+    color: white;
+}
+
+
+
+
+
+
+.rodape{
+    text-align: center;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.rodape_txt img{
+    margin-top: 50px;
+    width: 580px;
+    border-radius: 50%;
+}
+
+.rodape_txt p{
+    font-size: 20px;
+    color: white;
+
+}
+
